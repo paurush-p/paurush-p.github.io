@@ -11,7 +11,7 @@
 		$sidebar = $('#sidebar');
 
 	// Breakpoints.
-	/*
+	
 		breakpoints({
 			xlarge:   [ '1080px',  '1920px' ],
 			large:    [ '981px',   '1280px' ],
@@ -19,14 +19,8 @@
 			small:    [ '481px',   '736px'  ],
 			xsmall:   [ null,      '480px'  ]
 		});
-*/
-	breakpoints({
-			xlarge:   [ '1080px',  '1920px' ],
-			large:    [ '1080px',  '1920px' ],
-			medium:   [ '1080px',  '1920px' ],
-			small:    [ '1080px',  '1920px' ],
-			xsmall:   [ null,      '480px'  ]
-		});
+
+
 	// Hack: Enable IE flexbox workarounds.
 		if (browser.name == 'ie')
 			$body.addClass('is-ie');

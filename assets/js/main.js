@@ -53,6 +53,15 @@
         }
     };
 
+	window.myFunction1 = function() {
+        var x = document.getElementById("myDIVp2");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    };
+
 	// Forms.
 
 		// Hack: Activate non-input submits.

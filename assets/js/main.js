@@ -63,6 +63,33 @@
         }
     };
 
+	window.myFunction3 = function() {
+        var x = document.getElementById("myDIVpp1");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    };
+
+	window.myFunction4 = function() {
+        var x = document.getElementById("myDIVpp2");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    };
+
+	window.myFunction5 = function() {
+        var x = document.getElementById("myDIVpp3");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    };
+
 	// Forms.
 
 		// Hack: Activate non-input submits.

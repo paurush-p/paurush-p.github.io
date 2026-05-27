@@ -91,7 +91,7 @@
     };
 
 	window.myFunction6 = function() {
-        var x = document.getElementById("myDIVpp3");
+        var x = document.getElementById("myDIVw2");
         if (x.style.display === "none") {
             x.style.display = "block";
         } else {
